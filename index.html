@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>School Website</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+    <body>
+<nav class="navbar-inverse" style="position: sticky;top: 0;z-index: 99999">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"> </span>
+                <span class="icon-bar"> </span>
+                <span class="icon-bar"> </span>
+            </button>
+            <a class="navbar-brand" href="#"> DPSG</a>
+        </div>
+
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav">
+                <li><a href="#campus">CAMPUS LIFE</a></li>
+                <li><a href="#achievements">ACHIEVEMENTS</a></li>
+                <li><a href="#new">WHATS NEW</a></li>
+                <li><a href="#alumni">ALUMNI</a></li>
+                <li><a href="#contact">CONTACT US</a></li>
+            </ul>
+        </div>
+
+    </nav>
+    <div class="announcement">
+        <marquee id="marqueeStyle" onmouseover="this.stop();" onmouseout="this.start();">
+            *** Feel free to ask any queries on the school email id ***
+        </marquee>
+    </div>
+
+    <iframe width="1270" height="570" src="https://www.youtube.com/embed/jOXVV21OXXY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+    <!--Assuming "Menu with Marquee" and "Contact Us" has been completed in Project 68 -->
+
+    <div id="campus" class="container">
+        <!--Campus Life-->
+        <div class="page-header" id="campus_life">
+            <h2 class="text-capitalize">Campus Life</h2>
+
+            <div class="row">
+                <!--1st Campus Life-->
+                <div class="travel_mainDiv">
+                    <img class="img-responsive" src="football.jpg">
+                    <h4 class="text-capitalize"><kbd>Football Ground</kbd></h4>
+                    <hr>
+                    <h5 class="text-success text-left text-capitalize">Was established in 1981</h5>
+                    <p class="text-muted text-left">A really big ground for playing sports</p>
+                </div>
+                <!--2nd Campus Life-->
+                <div class="travel_mainDiv">
+                    <!--Give appropriate class below for the image img-responsive-->
+                    <img class="img-responsive" src="https://i.postimg.cc/KYzWbFpF/st2.jpg">
+                    <h4 class="text-capitalize"><kbd>school library</kbd></h4>
+                    <hr>
+                    <!--Give classes below text-success text-left-->
+                    <h5 class="text-capitalize text-success text-left">Was built in 1980</h5>
+                    <p class="text-muted text-left">A nice place for book lovers.</p>
+
+                </div>
+                <!--3rd Campus life-->
+                <div class="travel_mainDiv">
+                    <img class="img-responsive" src="https://i.postimg.cc/cLDDX2xz/st3.jpg">
+                    <!-- Give text-capitalize below to make the first letters in Capitals-->
+                    <h4 class="text-capitalize"><kbd>school auditorium</kbd></h4>
+                    <hr>
+                    <h5 class="text-success text-left text-capitalize">Was built in 1982</h5>
+                    <!-- Give text-muted below to show the text in grey color-->
+                    <p class="text-left text-muted">A big and spacious place</p>
+                </div>
+
+            </div>
+        </div>
+        <!--Achievements-->
+        <div class="page-header" id="achievements">
+            <h2 class="text-capitalize">school achievements</h2>
+        </div>
+        <div class="bg-primary movie_head" data-toggle="collapse" data-target="#school_achievement1">
+            Inter School Debate On Environment Pollution <i class="fa fa-sort-desc"></i>
+        </div>
+        <!--1st Achievement-->
+        <div id="school_achievement1" class="collapse">
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12" id="achievementsID">
+                <img src="https://i.postimg.cc/KztDSHbx/se1.jpg" class="img-responsive img-thumbnail">
+            </div>
+
+            <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 movie_text">
+                <h5 class="text-success text-left text-capitalize">Won first prize in inter school debate on environment pollution
+                </h5>
+                <p>Environmental issues have become serious now.</p>
+            </div>
+        </div>
+        <!--2nd Achievement-->
+        <div class="bg-primary movie_head" data-toggle="collapse" data-target="#school_achievement2">
+            Inter School Football Competition<i class="fa fa-sort-desc"></i>
+        </div>
+
+        <div id="school_achievement2" class="collapse">
+
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12" id="achievementsID">
+                
+                <img src="https://i.postimg.cc/sxcP1G1L/sm2.jpg" class="img-responsive img-thumbnail">
+            </div>
+            
+            <div class="movie_text col-lg-9 col-md-9 col-sm-9 col-xs-12">
+                <h5 class="text-success text-left text-capitalize">Came second in inter school football competition
+                </h5>
+                <p>Sports are very important</p>
+            </div>
+        </div>
+
+        <!--3rd Achievement--->
+
+        <div class="bg-primary  movie_head" data-toggle="collapse" data-target="#school_achievement3">
+            Inter School Science Project Competition<i class="fa fa-sort-desc"></i>
+        </div>
+
+        <div id="school_achievement3" class="collapse">
+            <!-- Add bootstrap col-lg-3 col-md-3 col-sm-3 col-xs-12-->
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12" id="achievementsID">
+                <img src="https://i.postimg.cc/zXzS67cY/sm3.jpg" class="img-responsive img-thumbnail">
+            </div>
+
+            <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 movie_text">
+              <h5 class="text-left text-success text-capitalize">Won second price in inter school Science Project competition
+                </h5>
+                <p>Our children, future scienctists</p>
+            </div>
+        </div>
+        <div class="page-header col-lg-12 col-md-12 col-sm-12 col-xs-12" id="new">
+            <h2 class="text-capitalize"> news about environment</h2>
+        </div>
+        <ul class="list_group">
+            <li class="list-group-item list-group-item-success col-lg-12 col-md-12 col-sm-12 col-xs-12 environment_li">
+                <h4> Introducing SEE Learning and Citizenship</h4>
+                <img src="CTship.jpg" class="img-responsive col-lg-5 col-md-5 col-sm-5 col-xs-12">
+                <p class="list-group-item-text col-lg-7 col-md-7 col-sm-7 col-xs-12 "> Nowadyas, as we have become online and children are exposed to many things. So, its important to introduce new subjects to help them cope up with these. See Learning helps them manage themselves emotionally and citizenship helps them to be responsible citizens.</p>
+            </li>
+            <br><br>
+
+            <li class="list-group-item list-group-item-warning col-lg-12 col-md-12 col-sm-12 col-xs-12 environment_li">
+                <h4> Opening Schools offline</h4>
+                <img src="school.jpg" class="img-responsive col-lg-5 col-md-5 col-sm-5 col-xs-12">
+                <p class="list-group-item-text col-lg-7 col-md-7 col-sm-7 col-xs-12 "> After a lot of time, we have started school offline following all the protocols.</p>
+            </li>
+        </ul>
+        
+         <div class="page-header col-lg-12 col-md-12 col-sm-12 col-xs-12" id="alumni">
+            <h2 class="text-capitalize"> Alumni </h2>
+        </div>
+        
+
+
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 book" data-toggle="modal" data-target="#Ashish_Goel">
+            <img src="alumni1.jpg" class="img-responsive">
+            <hr>
+            <p class="text-primary"> Ashish Goel</p>
+        </div>
+
+        <div class="modal" id="Ashish_Goel">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title"> Ashish Goel  (Batch 1996)</h4>
+                    </div>
+                    <div class="modal-body">
+                        <img src="alumni1.jpg" class="img-responsive img_modal">
+                        <p class="p_modal">
+                           He is the CEO of Urban Ladder<br>
+                            <a href="https://en.wikipedia.org/wiki/Urban_Ladder">
+                                <b> Read More About Him:</b>
+                            </a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 book" data-toggle="modal" data-target="#Simple_Kaul">
+            <img src="alumni2.jpg" class="img-responsive">
+            <hr>
+            <p class="text-primary"> Simple Kaul</p>
+        </div>
+
+        <div class="modal" id="Simple_Kaul">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title"> Simple Kaul  (Batch 1994)</h4>
+                    </div>
+                    <div class="modal-body">
+                        <img src="alumni2.jpg" class="img-responsive img_modal">
+                        <p class="p_modal">
+                           She is a famous silver screen actress and has worked in daily-soaps like Jeanie and Jiju, TMKOC, Ziddi Dil Maane Na etc.<br>
+                            <a href="https://en.wikipedia.org/wiki/Simple_Kaul">
+                                <b> Read More About Her:</b>
+                            </a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 book" data-toggle="modal" data-target="#Mrina_Tyagi">
+            <img src="alumni3.jpg" class="img-responsive">
+            <hr>
+            <p class="text-primary"> Mrinalini Tyagi</p>
+        </div>
+
+        <div class="modal" id="Mrina_Tyagi">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title"> Mrinalini Tyagi  (Batch 2000)</h4>
+                    </div>
+                    <div class="modal-body">
+                        <img src="alumni3.jpg" class="img-responsive img_modal">
+                        <p class="p_modal">
+                           She is a silver screen actress and has worked in daily-soaps like Pavitra Rishta. <br>
+                            <a href="https://www.imdb.com/name/nm4935122/">
+                                <b> Read More About Her:</b>
+                            </a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 book" data-toggle="modal" data-target="#Pooja_Bhat">
+            <img src="alumni4.jpg" class="img-responsive">
+            <hr>
+            <p class="text-primary"> Pooja Bhat</p>
+        </div>
+
+        <div class="modal" id="Pooja_Bhat">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title"> Pooja Bhat (Batch 2005-06)</h4>
+                    </div>
+                    <div class="modal-body">
+                        <img src="alumni4.jpg" class="img-responsive img_modal">
+                        <p class="p_modal">
+                           She is an IADS Deputy Controller of Defense, accounts of ministry defense. <br>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        
+
+
+
+        <div class="container">
+        <section id="contact">
+            <div class="page-header col-lg-12 col-md-12 col-sm-12 col-xs-12" id="contact">
+                <h2 class="text-capitalize">Contact us</h2>
+            </div>
+            <span>
+            <div id="map">
+               <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14000.079535659568!2d77.4365995!3d28.6890518!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x85c1f8742d030551!2sDPSG%20Ghaziabad!5e0!3m2!1sen!2sin!4v1640151713150!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+            <span id="details">
+                <img src="Principal%20DPSGM.jpg" style='width: 200px; height: 250px;' class="img-responsive img-circle col-lg-3 col-md-3 col-sm-3 col-xs-4">
+                <h4> Ms. Sangeeta Mukherjee Roy</h4>
+                <div class="contact_1">
+                    <a href="mailto:info@dpsgs.com?Subject=Hi">
+                        <h5><i class="fa fa-envelope"> </i> &nbsp; &nbsp; info@dpsgs.com </h5>   
+                </a>
+                        
+                 <a href= "#dpsgs">
+                                <h5><i class="fa fa-instagram"> </i> &nbsp; &nbsp; School id </h5>   
+                </a>
+                <a href="#dpsgs">
+                                        <h5> <i class="fa fa-phone-square"> </i> &nbsp; &nbsp; 1234567890 </h5>   
+                </a>
+                    </div>
+            </span>
+            </span>
+            
+        
+        </section>
+        
+        </div>
+
+    </div>
+    <div id="footer"></div>
+</body>
+
+</html>
